@@ -20,6 +20,7 @@ void ConcreteObservable::removeObserver(Observer * disconnected)
 		if (observer->id == disconnected->id)
 		{
 			observers.erase(observers.begin() + disconnected->id);
+			break;
 		}
 	}
 }

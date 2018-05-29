@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClInclude Include="ConcreteObservable.h" />
     <ClInclude Include="ConcreteObserver.h" />
+    <ClInclude Include="FnTestRemove.h" />
     <ClInclude Include="FunctionalTestObserver.h" />
     <ClInclude Include="FunctionalTestObserverAddObserverCase.h" />
     <ClInclude Include="FunctionalTestObserverCase.h" />
@@ -121,6 +122,7 @@
   <ItemGroup>
     <ClCompile Include="ConcreteObservable.cpp" />
     <ClCompile Include="ConcreteObserver.cpp" />
+    <ClCompile Include="FnTestRemove.cpp" />
     <ClCompile Include="FunctionalTestObserver.cpp" />
     <ClCompile Include="FunctionalTestObserverAddObserverCase.cpp" />
     <ClCompile Include="FunctionalTestObserverCase.cpp" />
